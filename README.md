@@ -73,4 +73,4 @@ pub struct SetPersistentDataResponse{
 ```
 
 ## Questions
-If you have and questions, find bugs or have a feature in mind please feel free to open an issue.
+If you have any questions, find bugs or have a feature in mind please feel free to open an issue.
