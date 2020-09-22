@@ -1,0 +1,12 @@
+[package]
+name = "fritz_box_tr064_igd_api_files_generator"
+version = "0.1.0"
+authors = ["arctic-alpaca <67190338+arctic-alpaca@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10", default-features = false, features = ["blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+serde-xml-rs = "0.4.0"
